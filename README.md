@@ -1,8 +1,10 @@
 # -Voight-Kampff-test
 
-ESG is an equal opportunity employer. Both replicants and humans can complete this test and be considered for employment.  Note that "retirement" on failure is *not* practiced at ESG.
+ESG is an equal opportunity employer. Both replicants and humans can complete this test and be considered for employment.  Note that ["retirement"](https://bladerunner.fandom.com/wiki/Retire) on failure is *not* practiced at ESG.
 
-Disclaimer: Above references to *Blade Runner* are included because we are sci-fi nerds. Have fun working on this homework -- we're looking forward to seeing what you can do.
+*Disclaimer*: Above references to *Blade Runner* are included because we are sci-fi nerds. We realize that replicants are not (yet) a reality...
+
+Have fun working on this homework -- we're looking forward to seeing what you can do.
 
 
 **The Challenge**
