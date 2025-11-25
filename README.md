@@ -5,7 +5,24 @@ ESG is an equal opportunity employer. Both replicants and humans can complete th
 Disclaimer: Above references to *Blade Runner* are included because we are sci-fi nerds. Have fun working on this homework -- we're looking forward to seeing what you can do.
 
 
-Suggested Build Workflow
+**The Challenge**
+
+Implement a stand alone CLI application that takes the data\event_data.csv file input containing:
+geophysical coordinates (east, north, depth) that represent located seismic events and their associated moment magnitude (Mw)
+
+In C++ and using VTK (Visualization ToolKit):
+1) Implement a data visualization pipeline of the events as solid spheres colored by moment magnitude.
+
+2) Represent the data bounds of the event locations with a simple wireframe cube.
+
+3) Provide a vertical scale that shows the relation of color to moment magnitude.
+
+4) Fit a 3D wireframe ellipsoid to the event locations using PCA analysis (do not weight the points) using a sensible scaling strategy.
+
+5) Ensure the initial focal point of the scene is centered on the event locations and that the scene can be interactively rotated/zoomed/panned by mouse.
+
+
+**Suggested Build Workflow**
 
 1. create build directory for vtk
 2. copy cmake\preload.cmake to vtk build directory
@@ -18,20 +35,3 @@ Suggested Build Workflow
   cmake --build . --config Debug
   cd Debug
   vtk_challenge.exe path_to_event_data_file
-
-
-**The Challenge**
-
-Implement a stand alone CLI application that takes the data\event_data.csv file input containing:
-geophysical coordinates (east, north, depth) that represent located seismic events and their associated moment magnitude (Mw)
-
-In C++ and using VTK (Visualization ToolKit):
-1) Implement a data visualization pipeline of the events as solid spheres colored by moment magnitude.
-
-2) Represent the data bounds of the event locations with a simple wireframe cube.
-
-3) Provide a vertical scale that shows the relation of color to momement magnitude.
-
-4) Fit a 3D wireframe ellipsoid to the event locations using PCA analysis (do not weight the points) using a sensible scaling strategy.
-
-5) Ensure the initial focal point of the scene is centered on the event locations and that the scene can be interactively rotated/zoomed/panned by mouse.
